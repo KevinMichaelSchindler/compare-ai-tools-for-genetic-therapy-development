@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AI Tools for Genetic Therapy Development</title>
+        <style>
+            /* General Styles */
+            body {
+                font-family: 'Arial', sans-serif;
+                background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .container {
+                background: #ffffff;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                padding: 40px;
+                max-width: 1200px;
+                width: 90%;
+                margin: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #2c3e50;
+                font-size: 2.5em;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            /* Table Styles */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 1em;
+                color: #34495e;
+            }
+
+            th,
+            td {
+                padding: 15px;
+                text-align: left;
+                border-bottom: 1px solid #ecf0f1;
+            }
+
+            th {
+                background: #3498db;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+
+            tr:nth-child(even) {
+                background: #f9fbfc;
+            }
+
+            tr:hover {
+                background: #e8f1f8;
+                transition: background 0.3s ease;
+            }
+
+            /* Link Styles */
+            a {
+                color: #2980b9;
+                text-decoration: none;
+                font-weight: 500;
+                transition: color 0.3s ease;
+            }
+
+            a:hover {
+                color: #e74c3c;
+                text-decoration: underline;
+            }
+
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                table {
+                    font-size: 0.9em;
+                }
+
+                th,
+                td {
+                    padding: 10px;
+                }
+
+                h1 {
+                    font-size: 1.8em;
+                }
+            }
+
+            /* Animation */
+            .container {
+                animation: fadeIn 1s ease-in-out;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Comparison of AI Tools for Genetic Therapy Development</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tool Name</th>
+                        <th>Developer</th>
+                        <th>Open-Source</th>
+                        <th>Primary Function</th>
+                        <th>Relevance to Rare Diseases</th>
+                        <th>Accessibility Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.profluent.bio/media/editing-the-human-genome-with-ai"
+                                target="_blank">OpenCRISPR-1</a></td>
+                        <td>Profluent Bio</td>
+                        <td>Yes (<a href="https://github.com/Profluent-AI/OpenCRISPR" target="_blank">GitHub</a>)</td>
+                        <td>AI-generated gene editor, high specificity</td>
+                        <td>High, for gene editing</td>
+                        <td>Freely available, ethical use encouraged</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.formbio.com/" target="_blank">FORMsight AI</a></td>
+                        <td>Form Bio</td>
+                        <td>No</td>
+                        <td>Optimizes therapeutic constructs</td>
+                        <td>Medium, vector design</td>
+                        <td>Commercial service, may require payment</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.deepgenomics.com/AI-Platform/" target="_blank">BigRNA Platform</a></td>
+                        <td>Deep Genomics</td>
+                        <td>No</td>
+                        <td>RNA expression prediction, DNA editing</td>
+                        <td>Medium, RNA therapeutics</td>
+                        <td>Proprietary, limited access</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.texaschildrens.org/content/research/ai-marrvel-new-ai-tool-diagnose-genetic-disorders"
+                                target="_blank">AI-MARRVEL</a></td>
+                        <td>Texas Children’s, BCM</td>
+                        <td>No</td>
+                        <td>Diagnoses rare genetic disorders</td>
+                        <td>Low, diagnostic focus</td>
+                        <td>Research tool, may need collaboration</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1459-4"
+                                target="_blank">DeepCRISPR</a></td>
+                        <td>Various research groups</td>
+                        <td>Yes (<a href="https://github.com/bm2-lab/DeepCRISPR" target="_blank">GitHub</a>)</td>
+                        <td>Designs CRISPR guides, predicts effects</td>
+                        <td>Medium, guide design</td>
+                        <td>Open-source, specific to guide selection</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.nvidia.com/en-us/clara/genomics/" target="_blank">Clara for
+                                Genomics</a></td>
+                        <td>Nvidia</td>
+                        <td>No</td>
+                        <td>Genomic analysis acceleration</td>
+                        <td>Medium, data processing</td>
+                        <td>Requires GPU, cloud options available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+</html>
